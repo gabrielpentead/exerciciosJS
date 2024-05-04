@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontrando o Maior Número</title>
+</head>
+<body>
+
+<h1>Encontrando o Maior Número</h1>
+
+<script>
+
+    var numero1 = parseFloat(prompt("Insira o primeiro número:"));
+    var numero2 = parseFloat(prompt("Insira o segundo numero:"));
+
+    var maiorNumero;
+    if (numero1 > numero2) {
+        maiorNumero = numero1;
+    } else if (numero1 < numero2) {
+        maiorNumero = numero2;
+    } else {
+        maiorNumero = ("Os números são iguais.");
+    }
+
+    document.write("O maior número é: " + maiorNumero);
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha</title>
+</head>
+<body>
+    <script>
+        var escolha = parseInt(prompt("Escolha uma opção:\n1. Opção 1\n2. Opção 2\n3. Opção 3"));
+        var mensagem; 
+
+        switch (escolha) {
+            case 1:
+                mensagem = "Opção 1 escolhida";
+                break;
+            case 2:
+                mensagem = "Opção 2 escolhida";
+                break;
+            case 3:
+                mensagem = "Opção 3 escolhida";
+                break;
+            default:
+                mensagem = "Opção inválida";
+        }
+
+        document.write("Escolha do usuário: " + mensagem);
+
+    </script>
+</body>
+</html>

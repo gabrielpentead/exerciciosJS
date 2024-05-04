@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas do usuário</title>
+</head>
+<body>
+    
+    <script>
+
+        var nota = parseFloat(prompt("Insira sua nota:"));
+
+        var condicao;
+
+        if (nota < 6) {
+            condicao = ("Reprovado")
+        } else if ( nota >= 6 && nota < 8) {
+            condicao = ("Aprovado")
+        } else {
+           condicao = ("Aprovado com Louvor")
+        }
+
+        document.write("Você está: " + condicao);
+
+    </script>
+</body>
+</html>
